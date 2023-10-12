@@ -16,7 +16,7 @@ div{
     border: 1px solid rgb(255, 255, 255);
     margin: -2px;
 }
-.borda{
+#borda{
     border: 1px solid black;
 }
 .vermelho{
@@ -34,7 +34,10 @@ div{
 .amarelo{
     background-color:#ffff00;
 }
-
+section{
+    display: flex;
+    justify-content: center;
+}
 footer{
     text-align: center;
     font-family: 'Nunito', sans-serif;
